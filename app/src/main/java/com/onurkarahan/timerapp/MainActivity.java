@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             if (Integer.parseInt(number.getText().toString()) == x) {
                 oneTouch++;
                 if (oneTouch == 1) {
+                    System.out.println();
 
                     score++;
                     stopTime = true;
